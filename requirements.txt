@@ -1,0 +1,26 @@
+# Dependências principais do pipeline RAG
+PyMuPDF==1.24.10
+easyocr==1.7.1
+pillow>=9.0.0
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.3.0
+
+# Processamento de linguagem e embeddings
+sentence-transformers==3.0.1
+torch==2.7.1
+transformers==4.53.2
+
+# Banco vetorial
+faiss-cpu==1.8.0
+
+# Framework para orquestração
+langchain==0.3.69
+
+# OCR avançado e suporte a PDFs com imagens
+unstructured[local-inference]==0.15.1
+python-magic
+filetype
+
+# Para rodar LLaMA 3 localmente via Ollama (não precisa estar no requirements)
+# Instale manualmente: ollama pull llama3
